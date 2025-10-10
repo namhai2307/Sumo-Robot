@@ -1,0 +1,26 @@
+{
+  "name": "eyebot",
+  "version": "1.0.0",
+  "description": "RobiOS library for TTGO EyeBot",
+  
+  "build": {
+    "precompiled": true,
+    "includeDir": "include",
+    "srcDir": "src",
+    "libArchive": false
+  },
+  
+  "keywords": ["robot", "eyebot", "ttgo", "motor", "camera", "tof"],
+  "authors": [
+    {
+      "name": "Parham Bahrami",
+      "maintainer": true
+    }
+  ],
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"],
+  "dependencies": [
+    "Wire",
+    "TFT_eSPI"
+  ]
+}
